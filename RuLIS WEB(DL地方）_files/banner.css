@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+a#banner1026,
+a#banner1105,
+a#banner1114,
+a#banner1118,
+a#banner1204 {
+    display: block;
+    width: 160px;
+    margin: 1px auto;
+    padding: 6px 1px 3px;
+    text-align: center;
+    font-family: 'メイリオ', 'ＭＳ Ｐゴシック', sans-serif;
+    line-height: 1.15;
+    background-color: #ffffcc;
+    border-width: 1px 3px 3px 1px;
+    border-style: solid;
+    border-color: #666666;
+    color: #666666;
+}
+
+a#banner0724 {
+    border-color: #996600;
+    color: #996600;
+}
+
+a#banner0910 {
+    border-color: #0066ff;
+    color: #0066ff;
+}
+
+a#banner1005 {
+    border-color: #009900;
+    color: #009900;
+}
+
+a#banner1026 {
+    border-color: #0066cc;
+    color: #0066cc;
+}
+
+a#banner1105 {
+    border-color: #993300;
+    color: #993300;
+}
+
+a#banner1114 {
+    border-color: #0033ff;
+    color: #0033ff;
+}
+
+a#banner1118 {
+    border-color: #009900;
+    color: #009900;
+}
+
+a#banner1204 {
+    border-color: #0066cc;
+    color: #0066cc;
+}
+
+a#banner1026:hover,
+a#banner1105:hover,
+a#banner1114:hover,
+a#banner1118:hover,
+a#banner1204:hover {
+    border-color: #cc0000;
+    background-color: #ffff99;
+    color: #cc0000;
+}

@@ -1,0 +1,511 @@
+@charset "UTF-8";
+
+/* ■ページ構造 */
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#content {
+    position: relative;
+    width: 100%;
+    min-width: 600px; /* IEのバグ対策 */
+}
+
+#main {
+    margin-left: 180px;
+}
+
+#menu {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 170px;
+}
+
+#sub {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 180px;
+}
+
+#main_top {
+    margin-left: 180px;
+    margin-right: 185px;
+    min-width: 16em;
+}
+
+/* ■要素内書式 */
+
+* {
+    margin: 0; /*お約束*/
+    padding: 0;
+}
+
+body {
+    background-image: url("/rulisweb/img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #ffffff;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 150%;
+    padding: 0em;
+    margin: 0.4em 0em 0.4em 0.6em;
+}
+
+p {
+    padding: 0.3em;
+    margin: 0em;
+}
+
+.m1 {
+    font-size: 125%;
+    padding: 0.3em;
+    margin: 0em;
+}
+
+.midasi {
+    font-size: 140%;
+    padding: 0.3em 0.3em 0 0.3em;
+}
+
+.table_title {
+    font-size: 200%;
+    padding: 0 0.5em 0.5em 0.5em;
+}
+
+a {
+    color: #3333cc;
+    text-decoration: none;
+    padding: 0.1em;
+}
+
+a.no_print {
+    color: #f4f4ff;
+}
+
+a:link {
+    color: #0000ff;
+    text-decoration: none;
+}
+
+a.no_print:link {
+    color: #f4f4ff;
+}
+
+a:hover {
+    color: #cc0033;
+    text-decoration: underline;
+    background-color: #ffffff;
+}
+
+a.no_print:hover {
+    color: #ffdddd;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+#header {
+    color: #000000;
+    font-size: 75%;
+    margin-bottom: 1.0em;
+    height: 100px;
+}
+
+#menu {
+    color: bule;
+    background: #ffffff;
+    font-size: 75%;
+    height: 100%;
+}
+
+#sub {
+    color: #000000;
+    background: #ffffff;
+    font-size: 75%;
+    height: 100%;
+}
+
+#main, #main_top {
+    color: #000000;
+    font-size: 80%;
+    border-left: 1px solid #CCCCCC;
+}
+
+#main_top {
+    border-right: 1px solid #CCCCCC;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 580px;
+    padding: 40px;
+    padding-bottom: 25px;
+}
+
+.form table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloc {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top;
+    border: 1px solid #cccccc;
+    width: 250px;
+}
+
+.buttondiv {
+    padding: 0.5em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.datalist {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 100% px;
+    width: 100% px;
+    padding: 50px;
+}
+
+/* メインDIVテーブルサイズ */
+.view_table400 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 40px;
+}
+
+.view_table450 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    padding: 40px;
+}
+
+.view_table500 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding: 40px;
+}
+
+.view_table550 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    padding: 40px;
+}
+
+.view_table600 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    padding: 40px;
+}
+
+.view_table620 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+    padding: 40px;
+}
+
+.view_table630 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 630px;
+    padding: 40px;
+}
+
+.view_table650 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    padding: 40px;
+}
+
+.view_table680 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    padding: 40px;
+}
+
+.view_table700 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    padding: 40px;
+}
+
+.view_table720 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 720px;
+    padding: 40px;
+}
+
+.view_table730 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px;
+    padding: 40px;
+}
+
+.view_table750 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    padding: 40px;
+}
+
+.view_table780 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 780px;
+    padding: 40px;
+}
+
+.view_table800 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    padding: 40px;
+}
+
+/* テーブル */
+div#main table, div#main_top table {
+    border-collapse: collapse;
+    background: #ddd;
+    border: 1px solid #ccc;
+}
+
+div#main th, div#main_top th {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+}
+
+div#main td, div#main_top td {
+    border: 1px solid #ccc;
+    background: #ffffff;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.paging {
+    padding: 5px 5px 5px 0;
+}
+
+.hyo {
+    width: 500px;
+}
+
+#footer {
+    color: #000000;
+    background: #cccc99;
+    font-size: 75%;
+    text-align: center;
+    margin-top: 1em;
+    border-bottom: 2px solid #990000;
+}
+
+strong {
+    font-style: normal;
+    font-weight: bold;
+    background: transparent;
+}
+
+div#main strong, div#main_top strong {
+    color: #333333;
+    background: transparent;
+    letter-spacing: 1px;
+}
+
+SPAN.new {
+    font-family: 'Arial', sans-serif;
+    color: #ff0000;
+    font-size: 90%;
+}
+
+SPAN.updated {
+    font-family: 'Arial', sans-serif;
+    color: #ff0000;
+    font-size: 90%;
+}
+
+/* ■メインコンテンツ見出し */
+
+.heading {
+    float: left;
+    display: block;
+    width: 14em;
+    margin: 5px;
+    margin-top: 6px;
+    background: #fff;
+    border-left: 0.8em solid #390;
+    border-top: 1px solid #999;
+    border-bottom: 2px solid #999;
+    border-right: 2px solid #999;
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W6", "HiraKakuPro-W6", "Osaka", sans-serif;
+}
+
+.c2 {
+    font-size: 90%;
+    height: 3.6em;
+}
+
+/* h2,p    { margin:0px; } */
+p {
+    margin: 0px;
+}
+
+h2 {
+    font-size: 110%;
+    color: #000;
+    background: transparent;
+}
+
+/* ■メインコンテンツ見出し　回りこみ解除用 */
+.clear {
+    float: none;
+    width: 300px;
+    margin: 3px;
+    padding-left: 0.5em;
+}
+
+div.horizontal {
+    clear: left;
+    margin: 1.2em 5px;
+    padding: 0.4em;
+    color: #333333;
+    background-color: #ffffff;
+    border-left: 0.8em solid #339900;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 90%;
+}
+
+.horizontal2 {
+    display: block;
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W6", "HiraKakuPro-W6", "Osaka", sans-serif;
+    margin: 5px;
+    padding: 0.1em;
+    line-height: 1.0;
+    color: #333;
+    background-color: #ffffe0;
+    text-align: center;
+    border-left: 0.8em solid #ff9900;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+    font-size: 90%;
+}
+
+/* ■サブメニュー リスト書式 */
+
+.c1 {
+    list-style-image: url(../img/m1.gif);
+}
+
+ul {
+    margin: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 10px;
+}
+
+/*
+ul.c1 li    { padding-left:0em; margin-left:0em; text-indent:0em;}
+*/
+ul.c1 li {
+    padding: 0.05em 0em;
+    margin: 0em;
+    text-indent: 0em;
+}
+
+@media print {
+    .no_print {
+        display: none;
+    }
+}
+
+.headermenu_base {
+    text-align: right;
+    padding: 0em;
+    background-color: #ebffd7;
+    background-image: url('../img/bg2.gif');
+}
+
+a:hover {
+    background: #ffffff;
+    text-decoration: none;
+}
+
+/*BG color is a must for IE6*/
+a.tooltip {
+    color: #333333;
+}
+
+a.tooltip span {
+    display: none;
+    padding: 2px 3px;
+    margin-left: -200px;
+    margin-top: 25px;
+    width: 200px;
+}
+
+a.tooltip:hover span {
+    display: inline;
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    color: #333333;
+}
+
+.main_btn {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.sub_btn {
+    cursor: pointer;
+}
+
+.data_register_sammury ul, .data_register_sammury ul li, .data_register_sammury li {
+    list-style-type: none;
+}
+
+.caption_title {
+    font-size: 150%;
+}
+
+.caution {
+    color: #A82400;
+}
+
+.caution2 {
+    color: red;
+}
+
+.list_title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
